@@ -18,7 +18,7 @@ pipeline{
                 steps{
                     scripts{
                     // echo "delivering..."
-                          bat './deliver.bat'
+                          bat './deliver.sh'
                     }
                 }
             }

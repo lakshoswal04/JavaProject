@@ -20,7 +20,7 @@ pipeline{
                    
                     // echo "delivering..."
                           // bat './deliver.sh'
-                      bat  './scripts/deliver.sh'
+                      bat  './scripts/deliver.bat'
                     }
                 }
             }

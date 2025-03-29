@@ -19,8 +19,8 @@ pipeline{
                     script{
                    
                     // echo "delivering..."
-                          // bat './deliver.sh'
-                      bat  './scripts/deliver.bat'
+                           bat './deliver.sh'
+                      // bat  './scripts/deliver.bat'
                     }
                 }
             }

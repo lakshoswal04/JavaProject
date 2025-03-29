@@ -16,8 +16,7 @@ pipeline{
             }
             stage("Deliver"){
                 steps{
-                    bat './scripts/deliver.sh'
-                    echo "delivering..."
+                         sh './scripts/deliver.sh'
                 }
             }
         

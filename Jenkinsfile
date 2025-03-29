@@ -18,8 +18,8 @@ pipeline{
                 steps{
                     script{
                    
-                    // echo "delivering..."
-                           bat '/deliver.sh'
+                    echo "delivering..."
+                           // bat './deliver.sh'
                       // bat  './scripts/deliver.bat'
                     }
                 }
